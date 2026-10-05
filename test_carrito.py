@@ -19,7 +19,7 @@ def test_carrito():
         driver.find_element(By.ID, "password").send_keys("secret_sauce")
         driver.find_element(By.ID, "login-button").click()
         
-        #agregar la mochila al carrito
+        #Agregar la mochila al carrito
         
         driver.find_element(By.CSS_SELECTOR, "button.btn_primary").click()
         #Verificar el numero en el badge del carrito
